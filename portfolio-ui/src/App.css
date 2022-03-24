@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&family=Satisfy&display=swap');
+
+App {
+  display: flex;
+  height: 100vh;
+}
+
+body {
+  background-color: #50C5B7;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #533A71;
+  border: 0;
+  padding: 0;
+
+}
+
+.content {
+  background-color: #6184D8;
+  padding: 10%;
+  width: 90vh;
+  margin: auto;
+  flex: 1;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  font-family: 'Bebas Neue', cursive;
+  color: whitesmoke; 
+  background-color: #6184D8;
+  margin: auto;
+  border: 0;
+  padding: 0;
+}
+
+.banner {
+  text-align: center;
+  background-color: #6184D8;
+ 
+  padding: 10px;
+}
+
+nav {
+  background-color: #533A71;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke; 
+  margin: 0;
+  margin-bottom: 20px;
+  border: 0;
+
+}
+
+nav a {
+  padding: 10px;
+  color: white;
+  background-color: #533A71;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #50C5B7;
+
+}
+
+table {
+  width: 70%;
+  padding: 20px;
+  text-align: left;
+  margin: auto;
+  border-collapse: collapse;
+  color: #533A71;
+  font-family: 'Raleway', sans-serif;
+}
+
+tr th {
+  background: #6184D8;
+  color: white;
+  padding: 5px 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  font-family: 'Bebas Neue', cursive;;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #533A71;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: #533A71;
+  color: white;
+  border: 0;
+  padding: 10px;
+  float: right;
+}
